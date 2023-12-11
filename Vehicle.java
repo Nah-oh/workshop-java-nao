@@ -3,6 +3,8 @@ public class Vehicle {
     String brand;
     String model;
     int year;
+    int weight;
+    int wheels;
 
     public Vehicle (String b, String m, int y) {
         brand = b;
