@@ -1,10 +1,10 @@
 public class Vehicle {
     
-    String brand;
-    String model;
-    int year;
-    int weight;
-    int wheels;
+    private String brand;
+    private String model;
+    private int year;
+    private int weight;
+    private int wheels;
 
     public Vehicle (String b, String m, int y) {
         brand = b;
@@ -22,5 +22,27 @@ public class Vehicle {
 
     public void describe() {
         System.out.println("I'm a " + brand + " " + model + " made in " + year);
+    }
+
+    public String getBrand(){return brand;}
+    public String getModel(){return model;}
+    public int getYear(){return year;}
+    public int getWeight(){return weight;}
+    public int getWheels(){return wheels;}
+
+    public void setBrand(String b) {
+        brand = b;
+    }
+    public void setModel(String m) {
+        model = m;
+    }
+    public void setYear(int y) {
+        year = y;
+    }
+    public void setWeight(int w) {
+        weight = w;
+    }
+    public void setWheels(int w) {
+        wheels = w;
     }
 }

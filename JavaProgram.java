@@ -21,5 +21,8 @@ public class JavaProgram {
         moto2julien.accelerate("niiiIIIooonnnnnn");
         System.out.println();
         kun.accelerate("UWUUUUUUUUUUUUUU");
+        v.getBrand();
+        System.out.println("------------------------------------");
+        System.out.println(kun.getYear());
     }
 }

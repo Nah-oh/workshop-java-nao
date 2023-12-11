@@ -9,7 +9,7 @@ public class Truck extends Vehicle {
 
     public void describe() {
         super.describe();
-        System.out.println("I'm a Truck, I weight " + weight + " and I have " + wheels + " wheels.");
+        System.out.println("I'm a Truck, I weight " + getWeight() + " and I have " + getWheels() + " wheels.");
     }
 
     public void accelerate(String onomatopeia) {
