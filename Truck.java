@@ -13,6 +13,6 @@ public class Truck extends Vehicle {
     }
 
     public void accelerate(String onomatopeia) {
-        System.out.println("My " + brand + " goes like this : " + onomatopeia);
+        System.out.println("My " + getBrand() + " goes like this : " + onomatopeia);
     }
 }

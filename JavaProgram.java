@@ -23,6 +23,5 @@ public class JavaProgram {
         kun.accelerate("UWUUUUUUUUUUUUUU");
         v.getBrand();
         System.out.println("------------------------------------");
-        System.out.println(kun.getYear());
     }
 }

@@ -1,10 +1,10 @@
 public class Vehicle {
     
-    private String brand;
-    private String model;
-    private int year;
-    private int weight;
-    private int wheels;
+    protected String brand;
+    protected String model;
+    protected int year;
+    protected int weight;
+    protected int wheels;
 
     public Vehicle (String b, String m, int y) {
         brand = b;
